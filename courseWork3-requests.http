@@ -4,7 +4,7 @@ Content-Type: application/json
 
 {
   "color":"GREEN",
-  "size":"S",
+  "size":35,
   "cottonPercentage":50,
   "quantity":10
 
@@ -51,7 +51,7 @@ Content-Type: application/json
 
 {
 "color":"RED",
-"size":"S",
+"size":"L",
 "cottonPercentage":-10,
 "quantity":25
 
@@ -60,7 +60,7 @@ Content-Type: application/json
 ###
 GET http://localhost:8080/api/sock
 ###
-GET http://localhost:8080/api/sock?color=BLUE
+GET http://localhost:8080/api/sock?size=35
 
 ###
 GET http://localhost:8080/api/sock?cottonMin=60
